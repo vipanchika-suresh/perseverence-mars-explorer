@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100c1b">
+  <meta name="description" content="Meet NASA's Perseverance Mars rover, explore its science tools, and try a Mars mission in Space Academy.">
+  <title>Perseverance — The Little Explorer of Mars</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="mars-site">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="home">
+    <div class="nav-shell">
+      <a class="wordmark" href="#home" aria-label="Perseverance, home">
+        <span class="wordmark-orbit" aria-hidden="true">✦</span>
+        <span>PERSEVERANCE<small>THE LITTLE EXPLORER OF MARS</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#meet">Meet Perseverance</a>
+        <a href="#rover">Explore the Rover</a>
+        <a href="#discoveries">Discoveries</a>
+        <a href="#academy">Space Academy</a>
+        <a href="#storybook">Our Storybook</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HOME: NASA's rover illustration is a verified NASA/JPL-Caltech image. -->
+    <section class="mars-hero" data-page="home" aria-labelledby="hero-title">
+      <div class="mars-starfield" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="mars-hero-glow" aria-hidden="true"></div>
+      <div class="mars-hero-inner section-wrap">
+        <div class="mars-hero-copy">
+          <div class="mars-eyebrow"><span></span> A MISSION OF CURIOSITY · MARS</div>
+          <h1 id="hero-title">PERSEVERANCE<span class="title-period">.</span></h1>
+          <p class="mars-hero-title">The Little Explorer<br>of Mars</p>
+          <p class="mars-hero-subtitle">Beyond the Book — An Interactive Mars Adventure</p>
+          <p class="mars-hero-intro">Meet a real rover exploring an ancient world. Look closer at its tools, discoveries, and the big questions it is helping us ask.</p>
+          <a class="button button-primary" href="#meet">Begin the adventure <span aria-hidden="true">→</span></a>
+          <p class="mars-status"><span></span> ROVER STATUS: EXPLORING MARS</p>
+        </div>
+        <div class="mars-hero-image-wrap">
+          <div class="mars-hero-image" role="img" aria-label="NASA illustration of the Perseverance rover exploring the surface of Mars"></div>
+          <div class="mars-image-credit">NASA/JPL-Caltech illustration <a href="https://science.nasa.gov/photojournal/perseverance-on-mars/" target="_blank" rel="noreferrer">Image source ↗</a></div>
+          <div class="mars-mascot" aria-label="Friendly astronaut mascot" role="img">
+            <div class="astronaut"><div class="astro-pack"></div><div class="astro-helmet"><div class="visor"><i></i><b></b></div><div class="helmet-rim"></div></div><div class="astro-body"><div class="chest-mark">✦</div></div><div class="astro-arm arm-left"></div><div class="astro-arm arm-right"></div><div class="astro-leg leg-left"></div><div class="astro-leg leg-right"></div><div class="boot boot-left"></div><div class="boot boot-right"></div></div>
+          </div>
+          <div class="mascot-label"><span>✦</span> Your science buddy</div>
+        </div>
+      </div>
+      <a href="#meet" class="hero-scroll" aria-label="Scroll to Meet Perseverance"><span></span></a>
+    </section>
+
+    <!-- MEET PERSEVERANCE -->
+    <section class="mars-section meet-section section-wrap" id="meet" data-page="meet" aria-labelledby="meet-title">
+      <div class="mars-section-label"><span>01</span> MEET YOUR MARS EXPLORER</div>
+      <div class="meet-grid">
+        <div><h2 id="meet-title">A robot with a<br><em>very big mission.</em></h2></div>
+        <div class="meet-copy"><p>Perseverance is a NASA rover exploring Jezero Crater, a place where rivers once flowed into a lake. It landed on Mars on February 18, 2021.</p><p>Its job is to study rocks, past environments, and climate—and to collect carefully chosen samples while searching for signs that ancient microbial life might once have existed.</p><a class="mars-text-link" href="https://science.nasa.gov/mission/mars-2020-perseverance/" target="_blank" rel="noreferrer">NASA mission overview <span>↗</span></a></div>
+      </div>
+      <div class="mission-facts">
+        <article class="mission-fact"><span class="fact-number">01</span><span class="fact-symbol">⌖</span><h3>Its home</h3><p>Jezero Crater, Mars</p><small>An ancient lake-and-river landscape</small></article>
+        <article class="mission-fact"><span class="fact-number">02</span><span class="fact-symbol">◉</span><h3>Touchdown</h3><p>February 18, 2021</p><small>After a dramatic “seven minutes of terror”</small></article>
+        <article class="mission-fact"><span class="fact-number">03</span><span class="fact-symbol">⌁</span><h3>Its mission</h3><p>Study, search, sample</p><small>Rocks can preserve clues from the past</small></article>
+        <article class="mission-fact current-fact"><span class="fact-number">04</span><span class="fact-symbol">✦</span><h3>Still exploring</h3><p>Healthy and active</p><small>Collected rock sample “Singita” · Nov 9, 2026</small></article>
+      </div>
+      <aside class="ingenuity-note"><span class="ingenuity-icon">✧</span><p><b>A note about Ingenuity</b><br>Ingenuity was the small helicopter that travelled to Mars with Perseverance. Its flight mission ended in January 2024 after 72 flights. Perseverance is a different spacecraft and continues its rover mission.</p><a href="https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-mars-helicopter-mission-ends/" target="_blank" rel="noreferrer">NASA’s Ingenuity update ↗</a></aside>
+    </section>
+
+    <!-- EXPLORE THE ROVER: add the supplied photo, then configure hotspot positions in script.js. -->
+    <section class="rover-section" id="rover" data-page="rover" aria-labelledby="rover-title">
+      <div class="section-wrap">
+        <div class="mars-section-label"><span>02</span> YOUR ROVER FIELD GUIDE</div>
+        <div class="rover-heading"><div><h2 id="rover-title">Meet the <em>tools</em></h2><p>Tap a glowing marker to open a field note. Each tool has a job to do.</p></div><span class="rover-heading-star" aria-hidden="true">✦</span></div>
+        <div class="rover-explorer">
+          <div class="rover-diagram rover-photo-area" aria-label="Interactive Perseverance rover photograph">
+            <div class="rover-diagram-label">ROVER FIELD GUIDE <span>? SELECT A MARKER</span></div>
+            <img class="rover-photo" src="assets/images/rover.jpg" alt="Perseverance rover on the surface of Mars" loading="lazy">
+            <div class="photo-placeholder" role="status"><strong>Your rover photo goes here</strong><span>Add the real photo as <code>assets/images/perseverance-rover-photo.jpg</code>. Hotspots stay hidden until their coordinates are set in <code>script.js</code>.</span></div>
+            <button class="rover-hotspot" data-tool="mastcam" aria-label="Open Mastcam-Z field note">1</button>
+            <button class="rover-hotspot" data-tool="supercam" aria-label="Open SuperCam field note">2</button>
+            <button class="rover-hotspot" data-tool="arm" aria-label="Open robotic arm field note">3</button>
+            <button class="rover-hotspot" data-tool="pixl" aria-label="Open PIXL field note">4</button>
+            <button class="rover-hotspot" data-tool="sherloc" aria-label="Open SHERLOC field note">5</button>
+            <div class="diagram-legend"><span><i>1</i> Mastcam-Z</span><span><i>2</i> SuperCam</span><span><i>3</i> Robotic arm</span><span><i>4</i> PIXL</span><span><i>5</i> SHERLOC</span></div>
+          </div>
+          <div class="rover-prompt"><span>✦</span><p>Rovers are like robot geologists. Their tools help them look at rocks, test them, and choose samples worth studying.</p></div>
+        </div>
+        <dialog class="tool-dialog" id="tool-dialog" aria-labelledby="tool-dialog-title"><button class="dialog-close" type="button" aria-label="Close field note">×</button><div class="dialog-kicker">ROVER FIELD NOTE</div><h3 id="tool-dialog-title"></h3><p class="dialog-kid" id="tool-kid"></p><div class="science-detail"><span>THE SCIENCE BIT</span><p id="tool-science"></p></div><a class="dialog-source" id="tool-source" target="_blank" rel="noreferrer">NASA instrument guide ↗</a></dialog>
+      </div>
+    </section>
+
+    <!-- MARS DISCOVERIES -->
+    <section class="mars-section discoveries-section section-wrap" id="discoveries" data-page="discoveries" aria-labelledby="discoveries-title">
+      <div class="mars-section-label"><span>03</span> CLUES FROM THE RED PLANET</div>
+      <div class="rover-heading"><div><h2 id="discoveries-title">Mars keeps a <em>record.</em></h2><p>Perseverance reads that record one rock, one image, and one sample at a time.</p></div></div>
+      <div class="discovery-grid">
+        <article class="discovery-card discovery-water"><span class="discovery-icon">≈</span><span class="discovery-number">01 / WATER</span><h3>A world shaped by water</h3><p>Jezero Crater once held a lake, and a river flowed into it. Layers of rock and sediment preserve clues about those ancient environments.</p><a href="https://science.nasa.gov/mission/mars-2020-perseverance/science-highlights/" target="_blank" rel="noreferrer">Explore NASA’s science highlights ↗</a></article>
+        <article class="discovery-card discovery-rock"><span class="discovery-icon">◈</span><span class="discovery-number">02 / ROCKS</span><h3>Rocks are time capsules</h3><p>The rover studies rock textures and chemistry. Minerals formed or changed by water help scientists reconstruct what Mars was like long ago.</p><a href="https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/" target="_blank" rel="noreferrer">See how the instruments work ↗</a></article>
+        <article class="discovery-card discovery-sample"><span class="discovery-icon">⬡</span><span class="discovery-number">03 / SAMPLES</span><h3>Carefully collected clues</h3><p>Perseverance drills and seals selected rock samples in tubes. They are stored for possible study by a future mission; they have not yet been returned to Earth.</p><a href="https://science.nasa.gov/mission/mars-2020-perseverance/science-highlights/" target="_blank" rel="noreferrer">Read about sample collection ↗</a></article>
+        <article class="discovery-card discovery-life"><span class="discovery-icon">✧</span><span class="discovery-number">04 / ANCIENT LIFE?</span><h3>A question still open</h3><p>The rover is looking for signs that ancient microbial life might have existed. Scientists study possible clues carefully—no discovery of life has been confirmed.</p><a href="https://www.jpl.nasa.gov/news/nasa-says-mars-rover-discovered-potential-biosignature-last-year/" target="_blank" rel="noreferrer">What is a potential biosignature? ↗</a></article>
+      </div>
+      <figure class="nasa-photo"><img src="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26752/PIA26752.png?crop=faces%2Cfocalpoint&amp;fit=clip&amp;h=1304&amp;w=1536" alt="Perseverance's camera mast looks down toward a rocky outcrop on Mars. The rover made this selfie in March 2026." loading="lazy"><figcaption>Perseverance’s westernmost selfie, taken with its WATSON camera in March 2026. <a href="https://science.nasa.gov/photojournal/nasas-perseverance-rover-snaps-westernmost-selfie/" target="_blank" rel="noreferrer">NASA/JPL-Caltech · Image and details ↗</a></figcaption></figure>
+    </section>
+
+    <!-- SPACE ACADEMY -->
+    <section class="academy-section" id="academy" data-page="academy" aria-labelledby="academy-title">
+      <div class="section-wrap">
+        <div class="mars-section-label"><span>04</span> SPACE ACADEMY</div>
+        <div class="rover-heading"><div><h2 id="academy-title">Train for your <em>mission.</em></h2><p>Match the rover’s tools, then take the five-question explorer quiz.</p></div><div class="academy-badge-icon" aria-hidden="true">✦</div></div>
+        <div class="academy-grid">
+          <section class="activity-card" aria-labelledby="match-title"><div class="activity-top"><span class="activity-icon">⌘</span><span class="activity-type">ACTIVITY 01</span></div><h3 id="match-title">Match the rover tools</h3><p>Choose what each tool is best at. Match all five for a perfect score.</p><form id="matching-game" class="matching-game"></form><div class="activity-actions"><button class="button button-primary" type="submit" form="matching-game">Check my matches</button><button class="quiet-button" type="reset" form="matching-game">Try again</button></div><p class="activity-result" id="match-result" aria-live="polite"></p></section>
+          <section class="activity-card quiz-card" aria-labelledby="quiz-title"><div class="activity-top"><span class="activity-icon">✧</span><span class="activity-type">ACTIVITY 02</span></div><h3 id="quiz-title">Mars explorer quiz</h3><p>Five quick questions. How much have you discovered?</p><form id="quiz-game" class="quiz-game"></form><div class="activity-actions"><button class="button button-primary" type="submit" form="quiz-game">Get my score</button><button class="quiet-button" type="reset" form="quiz-game">Start over</button></div><div class="quiz-result" id="quiz-result" aria-live="polite"></div></section>
+        </div>
+        <div class="virtual-badge" id="virtual-badge" hidden><span class="badge-star">✦</span><div><span class="badge-kicker">MISSION COMPLETE</span><h3>MARS EXPLORER</h3><p>You asked great questions and earned your virtual explorer badge!</p></div><span class="badge-check">✓</span></div>
+      </div>
+    </section>
+
+    <!-- OUR STORYBOOK -->
+    <section class="storybook-section section-wrap" id="storybook" data-page="storybook" aria-labelledby="storybook-title">
+      <div class="storybook-panel"><div class="storybook-art" aria-hidden="true"><div class="story-planet"></div><div class="storybook-mock"><span>OUR CHILDREN’S STORY</span><b>THE LITTLE<br>EXPLORER<br><i>OF MARS</i></b><small>PERSEVERANCE</small></div><span class="story-star story-star-a">✦</span><span class="story-star story-star-b">✧</span><span class="story-star story-star-c">·</span></div><div class="storybook-copy"><div class="mars-section-label"><span>05</span> OUR STORYBOOK</div><h2 id="storybook-title">The story begins.<br><em>The science goes further.</em></h2><p>Read our team’s children’s digital storybook, then come back to explore the real rover and the science behind its mission.</p><a class="button button-light" href="https://drive.google.com/file/d/1zQXs_MrJtJKWIM7anLf9uG-cHHveGQ1a/view?usp=drivesdk" id="storybook-link" aria-label="Storybook link will be added later">Read the storybook <span>↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer mars-footer">
+    <div class="footer-main section-wrap"><a class="wordmark footer-wordmark" href="#home"><span class="wordmark-orbit" aria-hidden="true">✦</span><span>PERSEVERANCE<small>THE LITTLE EXPLORER OF MARS</small></span></a><p>A storybook companion for curious minds. Built as an independent student project.</p><div class="footer-links"><a href="#meet">Meet Perseverance</a><a href="#rover">Rover tools</a><a href="#discoveries">Discoveries</a><a href="#academy">Space Academy</a><a href="#storybook">Storybook</a></div></div>
+    <div class="footer-references section-wrap"><span>NASA FACTS & IMAGE SOURCES</span><a href="https://science.nasa.gov/mission/mars-2020-perseverance/" target="_blank" rel="noreferrer">Mission overview</a><a href="https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/" target="_blank" rel="noreferrer">Instrument guide</a><a href="https://science.nasa.gov/blog/newest-sample-oldest-rock/" target="_blank" rel="noreferrer">Latest mission update · Nov 9, 2026</a><a href="https://science.nasa.gov/photojournal/perseverance-on-mars/" target="_blank" rel="noreferrer">Hero illustration · NASA/JPL-Caltech</a><a href="https://science.nasa.gov/photojournal/nasas-perseverance-rover-snaps-westernmost-selfie/" target="_blank" rel="noreferrer">Selfie · NASA/JPL-Caltech</a><a href="https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-mars-helicopter-mission-ends/" target="_blank" rel="noreferrer">Ingenuity mission end</a></div>
+    <div class="footer-meta section-wrap"><span>© 2026 Perseverance – The Little Explorer of Mars · Educational student project</span><span>NASA is not responsible for or endorsing this project. The original astronaut illustration is project artwork. AI disclosure: disclose AI-assisted work here if applicable.</span></div>
+  </footer>
+</body>
+</html>
